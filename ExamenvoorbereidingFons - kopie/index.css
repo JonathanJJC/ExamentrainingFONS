@@ -1,0 +1,245 @@
+body{
+  padding: 30px;
+  margin: 0px;
+  /*background-image:url("https://wallpaperaccess.com/full/220641.jpg");*/
+  background-color: #EAC77D;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #262E41;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #202635;
+}
+
+
+.active {
+  background-color: #56658D;
+}
+
+.logout{
+  background-color: indianred;
+}
+
+.frontinfo {
+  background-color: white; 
+}
+
+section {
+  padding-bottom: 15px ;
+}
+
+.articleimage img {
+  width: 50%; 
+  object-fit: cover;
+  
+}
+
+.contact {
+  bottom: 15px;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 30px;
+  
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+.table td, .table th {
+ /* border: 1px solid #ddd;*/
+  padding: 8px;
+
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #56658D;
+  color: white;
+
+  }
+
+div{
+  background-color: #DAE7FF;
+  padding: 15px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 30px;
+}
+
+.back{
+  background-color: #56658D;
+}
+
+.form {
+  background-color: #DAE7FF;
+  padding: 15px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+}
+
+.image_form {
+  background-color: #DAE7FF;
+  padding-left: 15px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.message{
+  background-color: #bc5858;
+}
+.message:hover{background-color: #aa5252; /* Green */}
+
+.no_data{
+  padding: 15px;
+  background-color: #bc5858;
+
+}
+
+button{
+  background-color: #5886AF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-bottom-left-radius: 30px;
+   border-top-right-radius: 30px;
+   font-weight: bold;
+   
+}
+
+button:hover{background-color: #547fa5; /* Green */}
+
+.edit{
+  background-color: #19b77b; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+
+  .edit:hover{background-color: #0c9963; /* Green */}
+
+  .delete{
+  background-color: #bc5858; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+
+  .delete:hover{background-color: #aa5252;}
+.view{
+  background-color: #2e98c9; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+  .view:hover{background-color: #3891b7;}
+
+  .export{
+  background-color: #f4bd4e; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-bottom-left-radius: 30px;
+   border-top-right-radius: 30px;
+  }
+
+  .export:hover{background-color: #eab448; /* Green */}
+
+  header {
+   padding-bottom: 15px;
+  }
+
+  .input{
+  background-color: f4bd4e; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-bottom-left-radius: 30px;
+   border-top-right-radius: 30px;
+   display: inline-block;
+  }
+
+.input:hover{background-color: #eab448; /* Green */}
+
+  .export_form{
+  
+  margin: 0px;
+  display: inline-block;
+  
+  text-decoration: none;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+   
+  }
+
+  img {
+  width: 10%;
+  height: auto;
+}
